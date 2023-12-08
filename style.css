@@ -1,0 +1,47 @@
+.navbar {
+    background-color: white !important;
+}
+
+.navbar-toggler {
+    background-color: rgb(164, 118, 207);
+}
+
+.nav-link {
+    color: black;
+}
+
+.text-secondary {
+    color: rgb(164, 118, 207) !important;
+}
+
+.btn-outline-light {
+    border-color: rgb(164, 118, 207) !important;
+}
+
+.btn {
+    color: black;
+}
+
+.bbtn {
+    background-color: rgb(183, 156, 209);
+}
+
+.bg-cute {
+    background-color: rgb(200, 161, 235);
+}
+
+.card-body {
+    background-color: rgb(255, 255, 255);
+}
+
+.card-text {
+    color: black;
+}
+
+.foot {
+    background-color: rgb(164, 118, 207);
+}
+
+.row {
+    width: 100%;
+}

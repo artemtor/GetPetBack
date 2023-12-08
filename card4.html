@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <!-- Meta/Links -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="image/logo.ico">
+
+<title>GetPetBack</title>
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="navbar navbar-expand-lg p-3">
+    <div class="container-fluid"> 
+      <a href="index.html"><img class="navbar-brand" src="image/logo.png" style="width: 3rem; margin-right: 2em;" alt="logo"></a>
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>    
+
+    <div class="navbar-collapse collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="index.html" class="nav-link px-2 text-secondary">Главная</a></li>
+        <li><a href="cabinet.html" class="nav-link px-2">Личный кабинет</a></li>
+        <li><a href="search.html" class="nav-link px-2">Поиск по объявлениям</a></li>
+        <li><a href="add.html" class="nav-link px-2">Добавить объявление</a></li>
+      </ul>
+
+      <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+        <input type="search" class="form-control form-control-dark" list="pets" placeholder="Поиск..." aria-label="Search">
+          <datalist id="pets">
+            <option value="Кошка">
+            </option><option value="Собака">
+            </option><option value="Корова">
+            </option><option value="Хомяк">
+            </option><option value="Птица">
+          </option></datalist>
+        </form>
+
+      <div class="text-end d-flex">
+        <a href="login.html"><button type="button" class="btn btn-outline-light me-2">Вход</button></a>
+        <a href="registration.html"><button type="button" class="btn bbtn">Регистрация</button></a>
+      </div>
+  </div>
+</div>
+</header>
+
+<main class="bg-cute" style="min-height: 70vh;">
+  <div class="container-fluid py-5">
+    <div class="d-flex justify-content-center align-items-center">
+              <div class="card py-4" style="border-radius: 15px;">
+                <div class="d-flex justify-content-center card-body p-4">
+                  <div class="d-flex" style="flex-wrap: wrap !important;">
+                    <img src="image/7.jpg"
+                    alt="Generic placeholder image" class="img-fluid"
+                    style="width: 350px; border-radius: 10px;">
+                <div class="flex-grow-1 ms-3">
+                  <h5 class="mb-1">Чмоня</h5>
+                  <p class="mb-2 pb-1">Собака</p>
+                  <div class="justify-content-start rounded-3 p-2 mb-2">
+                    <p>Пропала собака! Мопс! Серая шерсть, черные глаза, очень грустный :(</p> 
+                    <p>Адрес: ул. Травки 7, Выборгский район Звонить на мобильный телефон: +7(100)-321-21-21</p> 
+                    <p>Дата: 23.06.2023</p>
+                  </div>
+                      <div class="d-flex pt-1" style="width: 50%;">
+                        <button type="button" class="btn btn-outline-light me-1 flex-grow-1">Чат с хозяином</button>
+                        <button type="button" class="btn bbtn flex-grow-1">Откликнуться</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </div>
+  </div>
+  <div class="foot">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3 ms-3">
+          <h5>GetPetBack</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Главная</a></li>
+            <li class="nav-item mb-2"><a href="search.html" class="nav-link p-0 text-body-secondary" >Поиск по объявлениям</a></li>
+            <li class="nav-item mb-2"><a href="add.html" class="nav-link p-0 text-body-secondary" >Добавить объявление</a></li>
+            <li class="nav-item mb-2"><a href="cabinet.html" class="nav-link p-0 text-body-secondary" >Личный кабинет</a></li>
+            <li class="nav-item mb-2"><a href="registration.html" class="nav-link p-0 text-body-secondary" >Регистрация</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-8 offset-md-1 mb-3">
+          <form>
+            <h5>Подпишитесь на наши новости</h5>
+            <p>Делайте добро, воссоединяйте животных и их хозяев вместе с нами.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2 mb-2">
+              <label for="newsletter1" class="visually-hidden">Адрес эл. почты</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Адрес эл. почты">
+              <button class="btn bbtn" type="button">Подписаться</button>
+            </div>
+            <p>// Мы никому не разглашаем ваш адрес эл. почты</p>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p class="ms-3">© 2023 GetPetBack. Все права защищены.</p>
+        <ul class="list-unstyled d-flex" style="width: 22%;">
+          <li style="padding: 1em;"><a class="link-body-emphasis" href="#"><img src="image/twitter.png" width="50px"></a></li>
+          <li style="padding: 1em;"><a class="link-body-emphasis" href="#"><img src="image/facebook.png" width="50px"></a></li>
+          <li style="padding: 1em;"><a class="link-body-emphasis" href="#"><img src="image/instagram.png" width="50px"></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  </main>
+  
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+  </html>
